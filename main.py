@@ -2,7 +2,7 @@ import random
 import sys
 from set import *
 
-                            # функции говнокота и минного поля
+                            # функции кота и минного поля
 # bg
 def bg():
     screen.blit(bg_img, image_One_rect)
@@ -13,7 +13,7 @@ def notif_bg_up():
     screen.blit(notif_backgroung, (screen_coord[0] - 116, 0))
 
 
-# ф-ция подтирание говна за котом
+# ф-ция подтирание за котом
 def blit_grenn_after_cars_move(but_coords):
     screen.blit(Green_Button, (but_coords[0] - 2, but_coords[1] - 10))
 
